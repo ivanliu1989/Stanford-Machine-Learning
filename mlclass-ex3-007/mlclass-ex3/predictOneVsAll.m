@@ -31,6 +31,8 @@ X = [ones(m, 1) X];
 %       
 
 
+for j=1:m,
+	[trash,p(j)] = max(X(j,:) * all_theta');
 
 
 
